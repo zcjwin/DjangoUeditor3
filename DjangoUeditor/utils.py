@@ -46,7 +46,7 @@ class FileSize():
     def size(self):
         return self._size
 
-    @size.setter
+    @sizeByte.setter
     def size(self, newsize):
         try:
             self._size = long(newsize)
